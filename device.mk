@@ -10,3 +10,6 @@ PRODUCT_SET_SPL_OVERRIDE := true
 # Set default screen density for the S22 Ultra
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
+
+# Inherit system property variables
+TARGET_SYSTEM_PROP += device/samsung/b0q/system.prop
