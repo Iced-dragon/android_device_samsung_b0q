@@ -22,3 +22,6 @@ TARGET_SYSTEM_PROP += device/samsung/b0q/system.prop
 
 # Include proprietary vendor configurations
 include vendor/samsung/b0q/BoardConfigVendor.mk
+
+# Properties
+TARGET_VENDOR_PROP += device/samsung/b0q/vendor.prop
