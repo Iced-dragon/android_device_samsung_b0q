@@ -13,3 +13,7 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Inherit system property variables
 TARGET_SYSTEM_PROP += device/samsung/b0q/system.prop
+
+# Initialization Boot Scripts Configuration
+PRODUCT_PACKAGES += \
+    init.samsung.b0q.rc

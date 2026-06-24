@@ -1,0 +1,10 @@
+cc_library_static {
+    name: "libinit_samsung_b0q",
+    srcs: ["init_samsung_b0q.cpp"],
+    include_dirs: [
+        "system/core/init",
+    ],
+    shared_libs: [
+        "libbase",
+    ],
+}

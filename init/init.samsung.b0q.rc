@@ -1,0 +1,11 @@
+on early-init
+    # Optimize filesystem read-ahead values for quick booting
+    write /sys/block/dm-0/queue/read_ahead_kb 2048
+
+on boot
+    # Enable standard power management configuration variables
+    chown system system /sys/power/vcore_control
+    chmod 0660 /sys/power/vcore_control
+
+    # Allow the system to adjust vibration and haptics profiles
+    chown system system /sys/class/timed_output/vibrator/enable

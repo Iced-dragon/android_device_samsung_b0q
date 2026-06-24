@@ -25,3 +25,9 @@ include vendor/samsung/b0q/BoardConfigVendor.mk
 
 # Properties
 TARGET_VENDOR_PROP += device/samsung/b0q/vendor.prop
+
+# Include custom boot initialization library
+TARGET_INIT_VENDOR_LIB := libinit_samsung_b0q
+
+# Device Resource Overlays mapping parameters
+DEVICE_PACKAGE_OVERLAYS += device/samsung/b0q/overlay

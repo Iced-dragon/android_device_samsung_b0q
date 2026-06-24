@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Flag indicating whether the device supports Bluetooth SCO for telephony -->
+    <bool name="config_bluetooth_sco_off_call">false</bool>
+
+    <!-- True if the device supports multi-window/split-screen modes -->
+    <bool name="config_supportsMultiWindow">true</bool>
+    <bool name="config_supportsSplitScreenMultiWindow">true</bool>
+
+    <!-- Configure the default display rounded corners radius -->
+    <dimen name="rounded_corner_radius">40dp</dimen>
+
+    <!-- Default screen brightness tuning -->
+    <integer name="config_screenBrightnessSettingMinimum">2</integer>
+    <integer name="config_screenBrightnessSettingMaximum">255</integer>
+    <integer name="config_screenBrightnessSettingDefault">102</integer>
+</resources>
