@@ -9,5 +9,6 @@ $(call inherit-product, device/samsung/b0q/device.mk)
 PRODUCT_NAME := aosp_b0q
 PRODUCT_DEVICE := b0q
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := Galaxy S22 Ultra 5G
+PRODUCT_MODEL := SM-S908E
 PRODUCT_MANUFACTURER := samsung
+
