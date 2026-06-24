@@ -1,0 +1,7 @@
+[
+  {
+    "repository": "proprietary_vendor_samsung_b0q",
+    "target_path": "vendor/samsung/b0q",
+    "remote": "github"
+  }
+]
