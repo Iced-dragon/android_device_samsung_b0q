@@ -11,9 +11,6 @@ TARGET_2ND_CPU_ABI := arm-v7a
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_BOOT_HEADER_VERSION := 4
 
-# Include vendor configurations
-include vendor/samsung/b0q/BoardConfigVendor.mk
-
 # Assertions & System Requirements
 TARGET_OTA_ASSERT_DEVICE := b0q,b0qxx,SM-S908E,b0q_samsung
 

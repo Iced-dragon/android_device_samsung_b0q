@@ -18,11 +18,11 @@ else
     exit 1
 fi
 
-# Initialize the vendor folder setup structure
-setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_BUILD_TOP}"
+# Initialize the vendor folder setup structure with argument handling
+setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_BUILD_TOP}" false "${CLEAN_VENDOR}"
 
-# Pull files listed inside proprietary-files.txt over ADB
-extract "${MY_DIR}/proprietary-files.txt" "${SRC}" "${SECTION}"
+# Pass extraction source parameters safely
+extract "${MY_DIR}/proprietary-files.txt" "${1}" "${2}"
 
 write_footers
 
